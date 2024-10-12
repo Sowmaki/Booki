@@ -1,0 +1,43 @@
+/****** Media queries ***********/
+
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (max-width: 1024px) {
+
+  .activites-cards img {
+    height: 200px;
+  }
+
+  .activite-card {
+    height: 270px;
+  }
+
+  .activite-card .card-txt {
+    display: flex;
+    height: 70px;
+    align-items: center;
+  }
+
+  .activites-cards .card {
+    padding: 0px;
+  }
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  .activites-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .activites-cards a {
+    width: 100%;
+  }
+
+  .activite-card {
+    padding: 5px;
+  }
+
+}
